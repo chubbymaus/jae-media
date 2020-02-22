@@ -47,9 +47,27 @@ const Jumbotron = () => (
             </a>
           </div>
           <div id="icons">
-            <FontAwesomeIcon icon={["fab", "instagram"]} className="icon-fa" />
-            <FontAwesomeIcon icon={["fab", "youtube"]} className="icon-fa" />
-            <FontAwesomeIcon icon={["fab", "vimeo-v"]} className="icon-fa" />
+            <a href="https://www.instagram.com/jaemedia/" target="_blank">
+              <FontAwesomeIcon
+                icon={["fab", "instagram"]}
+                className="icon-fa has-text-white"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UC385ABA9eFoP82z4nWysqHg"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "youtube"]}
+                className="icon-fa has-text-white"
+              />
+            </a>
+            <a href="https://vimeo.com/jamesyu1" target="_blank">
+              <FontAwesomeIcon
+                icon={["fab", "vimeo-v"]}
+                className="icon-fa has-text-white"
+              />
+            </a>
           </div>
         </Text>
         <Image className="column">
