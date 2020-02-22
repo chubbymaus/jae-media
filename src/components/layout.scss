@@ -1,0 +1,62 @@
+@import '../../node_modules/bulma/bulma.sass';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap');
+
+html {
+  overflow: hidden;
+}
+
+.container {
+  margin: 0
+}
+
+.hero-body {
+  padding: 0;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.button {
+  border-radius: 0;
+  border-width: 2px;
+  min-width: 125px;
+  text-transform: uppercase;
+  font-family: 'Montserrat',
+    sans-serif;
+  font-weight: 400;
+}
+
+#logo-image {
+  max-width: 200px;
+  margin-bottom: 50px;
+}
+
+.columns {
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+  margin: 0;
+  padding: 0;
+}
+
+#photo-column {
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+#first-button {
+  margin-right: 15px;
+}
+
+#icons {
+  margin-top: 50px;
+}
+
+.icon-fa {
+  font-size: 1.5rem;
+  margin: 8px;
+}
