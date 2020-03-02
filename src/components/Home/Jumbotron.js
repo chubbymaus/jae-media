@@ -42,7 +42,7 @@ class Jumbotron extends Component {
               <img src={LogoImage} id="logo-image" />
               <h1 className="subtitle has-text-grey-light has-text-weight-light">
                 Photographer and Filmmaker.<br></br>
-                Capturing all things that ar beautiful in this world.<br></br>
+                Capturing all things that are beautiful in this world.<br></br>
                 Based out of Salt Lake City, Utah.
               </h1>
               <div>
