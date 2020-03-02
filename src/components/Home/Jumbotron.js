@@ -40,7 +40,11 @@ class Jumbotron extends Component {
           <Container className="columns">
             <Text className="column has-text-centered">
               <img src={LogoImage} id="logo-image" />
-              <h1 className="title has-text-white">Hi! My Name Is James!</h1>
+              <h1 className="subtitle has-text-grey-light has-text-weight-light">
+                Photographer and Filmmaker.<br></br>
+                Capturing all things that ar beautiful in this world.<br></br>
+                Based out of Salt Lake City, Utah.
+              </h1>
               <div>
                 <button
                   className="button is-outlined is-light modal-button"
